@@ -1,7 +1,5 @@
 import random
-
 def bubblesort(list):
-    
     maxidx = len(list)-1
     sorted_list = list
     count = 1
