@@ -22,7 +22,5 @@ def createUsername():
     print(f"you got the username {user}")
 
 while True:
-    ask = input("do you want to continue?: ")
-    if ask:
-        break
+    #ask = input("do you want to continue?: ")
     createUsername()
