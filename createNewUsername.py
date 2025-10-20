@@ -5,7 +5,7 @@ createdNames = []
 def exsitingUsers(name):
     if name in createdNames:
         return True
-def unquieName(name,number=0):
+def unquieName(name,number=1):
     if exsitingUsers(name+str(number)):
         return unquieName(name, number+1)
     else:

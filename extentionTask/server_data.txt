@@ -1,0 +1,4 @@
+101,Python Basics,True
+102,AI Explained,True
+103,Data Structures,True
+104,The Code Breakers,False
