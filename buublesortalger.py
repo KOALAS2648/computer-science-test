@@ -2,7 +2,6 @@ import random
 def bubblesort(list):
     maxidx = len(list)-1
     sorted_list = list
-    count = 1
     while True:
         #print(f"count:{count}")
         swapped = False
@@ -17,7 +16,6 @@ def bubblesort(list):
                 else:
                     sorted_list[-1] = compare[0]
                     swapped = True
-        count += 1
         if not swapped:
             break
     return sorted_list
