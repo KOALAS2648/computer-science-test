@@ -45,13 +45,15 @@ def add_binary(num1, num2):
             elif carry == "1":
                 res.insert(0, "1")
                 carry = "1"
+    res.insert(0, " ")
+    res.insert(0, f"{carry}")
     for i in res:
         c +=i
     return c
 
             
 
-a = add_binary("00110010","00011001")
+a = add_binary("10110010","10011001")
 print(a)
 print(BD.BinaryTODenary(a))
 #00110010 denary:50
