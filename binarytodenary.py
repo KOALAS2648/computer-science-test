@@ -3,7 +3,7 @@ def BinaryTODenary(number:str) -> int:
     sum = 0
     start_power = len(number)
     for idx, digit in enumerate(number):
-        if digit != " "
+        if idx > 1:
             sum += int(digit)*(2**(start_power-idx))
     return sum//2
 
